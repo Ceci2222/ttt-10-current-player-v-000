@@ -3,7 +3,7 @@
 def turn_count(board)
   board = [" "," "," "," "," "," "," "," "," "]
   counter = 0
-  board.countif do |board| == "O" || "X"
+  board.countif do |board| == "O" || |board| == "X"
       counter += 1
     end
     return #{counter}
