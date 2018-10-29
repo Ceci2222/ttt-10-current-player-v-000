@@ -6,8 +6,8 @@ def turn_count(board)
   board.each do |board|
     if board == "O"
       counter += 1
-    else
-      counter += 0
+    elseif board == "X"
+      counter += 1
     end
     return #{counter}
   end
